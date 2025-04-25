@@ -1,0 +1,33 @@
+{
+  "name": "dragosani24/laravel-caching-proxy",
+  "description": "A caching proxy server for Laravel",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Santiago Aviles",
+      "email": "santiagoav@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "guzzlehttp/guzzle": "^7.0",
+    "laravel/framework": "^9.0|^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "drragosani24\\CachingProxy\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "dragosani24\\CachingProxy\\CachingProxyServiceProvider"
+      ]
+    }
+  },
+  "bin": ["bin/caching-proxy"],
+  "scripts": {
+    "test": "phpunit"
+  }
+}
