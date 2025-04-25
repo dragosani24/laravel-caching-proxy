@@ -2,8 +2,8 @@
 
 namespace Dragosani24\CachingProxy;
 
+use Dragosani24\CachingProxy\Console\CachingProxyCommand;
 use Illuminate\Support\ServiceProvider;
-use dragosani24\CachingProxy\Console\CachingProxyCommand;
 
 class CachingProxyServiceProvider extends ServiceProvider
 {

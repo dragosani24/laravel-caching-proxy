@@ -3,7 +3,7 @@
 
 require __DIR__.'/../vendor/autoload.php';
 
-use dragosani24\CachingProxy\Console\CachingProxyCommand;
+use Dragosani24\CachingProxy\Console\CachingProxyCommand;
 use Symfony\Component\Console\Application;
 
 $app = new Application('Laravel Caching Proxy', '1.0.0');
