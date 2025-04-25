@@ -16,13 +16,13 @@
   },
   "autoload": {
     "psr-4": {
-      "drragosani24\\CachingProxy\\": "src/"
+      "Dragosani24\\CachingProxy\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "dragosani24\\CachingProxy\\CachingProxyServiceProvider"
+        "Dragosani24\\CachingProxy\\CachingProxyServiceProvider"
       ]
     }
   },
