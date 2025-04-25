@@ -1,6 +1,6 @@
 <?php
 
-namespace dragosani24\CachingProxy\Console;
+namespace Dragosani24\CachingProxy\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Cache;
