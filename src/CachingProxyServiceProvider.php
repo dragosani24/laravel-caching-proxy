@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendorName\CachingProxy;
+namespace dragosani24\CachingProxy;
 
 use Illuminate\Support\ServiceProvider;
 use dragosani24\CachingProxy\Console\CachingProxyCommand;
