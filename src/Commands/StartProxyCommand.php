@@ -27,7 +27,7 @@ class StartProxyCommand extends Command
         $command = [
             PHP_BINARY,
             '-S',
-            "{$this->option('host')}:{$this->option('port')}",
+            "localhost:{$port}",
             '-t',
             __DIR__ . '/../../public',
         ];
